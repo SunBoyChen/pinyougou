@@ -1,0 +1,472 @@
+[INFO][2018-04-01 13:33:09,120][com.alibaba.dubbo.common.logger.LoggerFactory]using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO][2018-04-01 13:33:17,119][com.alibaba.dubbo.config.AbstractConfig] [DUBBO] Export dubbo service com.pinyougou.page.service.ItemPageService to local registry, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:17,119][com.alibaba.dubbo.config.AbstractConfig] [DUBBO] Export dubbo service com.pinyougou.page.service.ItemPageService to url dubbo://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=13212&revision=1.0-SNAPSHOT&side=provider&timestamp=1522560796902, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:17,121][com.alibaba.dubbo.config.AbstractConfig] [DUBBO] Register dubbo service com.pinyougou.page.service.ItemPageService url dubbo://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=13212&revision=1.0-SNAPSHOT&side=provider&timestamp=1522560796902 to registry registry://118.24.122.111:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-page-service&dubbo=2.8.4&pid=13212&registry=zookeeper&timestamp=1522560796877, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:17,720][com.alibaba.dubbo.remoting.transport.AbstractServer] [DUBBO] Start NettyServer bind /0.0.0.0:20885, export /192.168.25.1:20885, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:17,808][com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [DUBBO] Load registry store file C:\Users\陈志华\.dubbo\dubbo-registry-118.24.122.111.cache, data: {com.pinyougou.page.service.ItemPageService=empty://192.168.25.1/com.pinyougou.page.service.ItemPageService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timeout=40000&timestamp=1522506948150 empty://192.168.25.1/com.pinyougou.page.service.ItemPageService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timeout=40000&timestamp=1522506948150 dubbo://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=10160&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506876382, com.pinyougou.sellergoods.service.ItemService=empty://192.168.25.1/com.pinyougou.sellergoods.service.ItemService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.ItemService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506951344 empty://192.168.25.1/com.pinyougou.sellergoods.service.ItemService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.ItemService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506951344 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.ItemService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.ItemService&methods=add,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506911106, com.pinyougou.sellergoods.service.GoodsService=empty://192.168.25.1/com.pinyougou.sellergoods.service.GoodsService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.GoodsService&methods=add,findItemListByGoodsIdandStatus,updateStatus,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506945219 empty://192.168.25.1/com.pinyougou.sellergoods.service.GoodsService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.GoodsService&methods=add,findItemListByGoodsIdandStatus,updateStatus,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506945219 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.GoodsService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.GoodsService&methods=add,findItemListByGoodsIdandStatus,updateStatus,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506910164, com.pinyougou.sellergoods.service.SellerService=empty://192.168.25.1/com.pinyougou.sellergoods.service.SellerService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SellerService&methods=add,updateStatus,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506952298 empty://192.168.25.1/com.pinyougou.sellergoods.service.SellerService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SellerService&methods=add,updateStatus,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506952298 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.SellerService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.SellerService&methods=add,updateStatus,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506911572, com.pinyougou.ContentService=empty://192.168.25.1/com.pinyougou.ContentService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.ContentService&methods=add,findOne,update,findPage,delete,findAll,findByCategoryId&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506943973 empty://192.168.25.1/com.pinyougou.ContentService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.ContentService&methods=add,findOne,update,findPage,delete,findAll,findByCategoryId&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506943973 dubbo://192.168.25.1:20882/com.pinyougou.ContentService?anyhost=true&application=pinyougou-content-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.ContentService&methods=add,findOne,update,findPage,delete,findAll,findByCategoryId&pid=8932&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506898949, com.pinyougou.sellergoods.service.BrandService=empty://192.168.25.1/com.pinyougou.sellergoods.service.BrandService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.BrandService&methods=add,selectOptionList,findById,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506936332 empty://192.168.25.1/com.pinyougou.sellergoods.service.BrandService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.BrandService&methods=add,selectOptionList,findById,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506936332 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.BrandService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.BrandService&methods=add,selectOptionList,findById,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timeout=60000&timestamp=1522506903610, com.pinyougou.sellergoods.service.SpecificationOptionService=empty://192.168.25.1/com.pinyougou.sellergoods.service.SpecificationOptionService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SpecificationOptionService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506954284 empty://192.168.25.1/com.pinyougou.sellergoods.service.SpecificationOptionService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SpecificationOptionService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506954284 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.SpecificationOptionService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.SpecificationOptionService&methods=add,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506912031, com.pinyougou.search.service.ItemSearchService=empty://192.168.25.1/com.pinyougou.search.service.ItemSearchService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search,deleteByGoodsIds,importList&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506946625 empty://192.168.25.1/com.pinyougou.search.service.ItemSearchService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search,deleteByGoodsIds,importList&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506946625 dubbo://192.168.25.1:20884/com.pinyougou.search.service.ItemSearchService?anyhost=true&application=pinyougou-search-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.search.service.ItemSearchService&methods=search,deleteByGoodsIds,importList&pid=1276&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506882251, com.pinyougou.sellergoods.service.TypeTemplateService=empty://192.168.25.1/com.pinyougou.sellergoods.service.TypeTemplateService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.TypeTemplateService&methods=add,findOne,update,findSpecList,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506955241 empty://192.168.25.1/com.pinyougou.sellergoods.service.TypeTemplateService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.TypeTemplateService&methods=add,findOne,update,findSpecList,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506955241 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.TypeTemplateService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.TypeTemplateService&methods=add,findOne,update,findSpecList,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506913107, com.pinyougou.sellergoods.service.GoodsDescService=empty://192.168.25.1/com.pinyougou.sellergoods.service.GoodsDescService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.GoodsDescService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506949204 empty://192.168.25.1/com.pinyougou.sellergoods.service.GoodsDescService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.GoodsDescService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506949204 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.GoodsDescService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.GoodsDescService&methods=add,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506909356, com.pinyougou.ContentCategoryService=empty://192.168.25.1/com.pinyougou.ContentCategoryService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.ContentCategoryService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506942888 empty://192.168.25.1/com.pinyougou.ContentCategoryService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.ContentCategoryService&methods=add,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506942888 dubbo://192.168.25.1:20882/com.pinyougou.ContentCategoryService?anyhost=true&application=pinyougou-content-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.ContentCategoryService&methods=add,findOne,update,findPage,delete,findAll&pid=8932&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506892756, llergoods.service.SpecificationOptionService&methods=add,findOne,update,findPage,delete,findAll&pid=6740&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522463130167=empty://192.168.25.1/com.pinyougou.sellergoods.service.SpecificationOptionService?application=pinyougou-manager-web&category=providers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SpecificationOptionService&methods=add,findOne,update,findPage,delete,findAll&pid=6740&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522463130167, com.pinyougou.sellergoods.service.SpecificationService=empty://192.168.25.1/com.pinyougou.sellergoods.service.SpecificationService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SpecificationService&methods=add,selectSpecList,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506953302 empty://192.168.25.1/com.pinyougou.sellergoods.service.SpecificationService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.SpecificationService&methods=add,selectSpecList,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506953302 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.SpecificationService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.SpecificationService&methods=add,selectSpecList,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506912601, com.pinyougou.sellergoods.service.ItemCatService=empty://192.168.25.1/com.pinyougou.sellergoods.service.ItemCatService?application=pinyougou-manager-web&category=configurators&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.ItemCatService&methods=add,findByParentId,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506950318 empty://192.168.25.1/com.pinyougou.sellergoods.service.ItemCatService?application=pinyougou-manager-web&category=routers&dubbo=2.8.4&interface=com.pinyougou.sellergoods.service.ItemCatService&methods=add,findByParentId,findOne,update,findPage,delete,findAll&pid=12676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1522506950318 dubbo://192.168.25.1:20881/com.pinyougou.sellergoods.service.ItemCatService?anyhost=true&application=pinyougou-sellergoods-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.sellergoods.service.ItemCatService&methods=add,findByParentId,findOne,update,findPage,delete,findAll&pid=14220&revision=1.0-SNAPSHOT&side=provider&timestamp=1522506910637}, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:17,952][org.I0Itec.zkclient.ZkEventThread]Starting ZkClient event thread.
+[INFO][2018-04-01 13:33:22,463][org.apache.zookeeper.ZooKeeper]Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+[INFO][2018-04-01 13:33:22,463][org.apache.zookeeper.ZooKeeper]Client environment:host.name=DESKTOP-HF2JIPS
+[INFO][2018-04-01 13:33:22,465][org.apache.zookeeper.ZooKeeper]Client environment:java.version=1.8.0_151
+[INFO][2018-04-01 13:33:22,465][org.apache.zookeeper.ZooKeeper]Client environment:java.vendor=Oracle Corporation
+[INFO][2018-04-01 13:33:22,465][org.apache.zookeeper.ZooKeeper]Client environment:java.home=D:\java\jdk\jre
+[INFO][2018-04-01 13:33:22,465][org.apache.zookeeper.ZooKeeper]Client environment:java.class.path=D:\java\maven\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar;D:\java\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar
+[INFO][2018-04-01 13:33:22,465][org.apache.zookeeper.ZooKeeper]Client environment:java.library.path=D:\java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\java\maven\apache-maven-3.5.2\bin;D:\Program Files\Git\cmd;C:\Users\陈志华\AppData\Local\Microsoft\WindowsApps;C:\Users\陈志华\AppData\Local\GitHubDesktop\bin;.
+[INFO][2018-04-01 13:33:22,467][org.apache.zookeeper.ZooKeeper]Client environment:java.io.tmpdir=C:\Users\陈志华\AppData\Local\Temp\
+[INFO][2018-04-01 13:33:22,467][org.apache.zookeeper.ZooKeeper]Client environment:java.compiler=<NA>
+[INFO][2018-04-01 13:33:22,467][org.apache.zookeeper.ZooKeeper]Client environment:os.name=Windows 10
+[INFO][2018-04-01 13:33:22,467][org.apache.zookeeper.ZooKeeper]Client environment:os.arch=amd64
+[INFO][2018-04-01 13:33:22,467][org.apache.zookeeper.ZooKeeper]Client environment:os.version=10.0
+[INFO][2018-04-01 13:33:22,474][org.apache.zookeeper.ZooKeeper]Client environment:user.name=陈志华
+[INFO][2018-04-01 13:33:22,474][org.apache.zookeeper.ZooKeeper]Client environment:user.home=C:\Users\陈志华
+[INFO][2018-04-01 13:33:22,478][org.apache.zookeeper.ZooKeeper]Client environment:user.dir=D:\java\work\pinyougou-parent\pinyougou-page\pinyougou-page-service
+[INFO][2018-04-01 13:33:22,479][org.apache.zookeeper.ZooKeeper]Initiating client connection, connectString=118.24.122.111:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@5430b278
+[INFO][2018-04-01 13:33:22,605][org.apache.zookeeper.ClientCnxn]Opening socket connection to server 118.24.122.111/118.24.122.111:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO][2018-04-01 13:33:22,652][org.apache.zookeeper.ClientCnxn]Socket connection established to 118.24.122.111/118.24.122.111:2181, initiating session
+[INFO][2018-04-01 13:33:22,704][org.apache.zookeeper.ClientCnxn]Session establishment complete on server 118.24.122.111/118.24.122.111:2181, sessionid = 0x1000bbf4e8800de, negotiated timeout = 40000
+[INFO][2018-04-01 13:33:22,707][org.I0Itec.zkclient.ZkClient]zookeeper state changed (SyncConnected)
+[INFO][2018-04-01 13:33:22,709][com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [DUBBO] Register: dubbo://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=13212&revision=1.0-SNAPSHOT&side=provider&timestamp=1522560796902, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:22,951][com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [DUBBO] Subscribe: provider://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&category=configurators&check=false&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=13212&revision=1.0-SNAPSHOT&side=provider&timestamp=1522560796902, dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:33:23,174][com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&category=configurators&check=false&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=13212&revision=1.0-SNAPSHOT&side=provider&timestamp=1522560796902, urls: [empty://192.168.25.1:20885/com.pinyougou.page.service.ItemPageService?anyhost=true&application=pinyougou-page-service&category=configurators&check=false&dubbo=2.8.4&generic=false&interface=com.pinyougou.page.service.ItemPageService&methods=genItemHtml&pid=13212&revision=1.0-SNAPSHOT&side=provider&timestamp=1522560796902], dubbo version: 2.8.4, current host: 127.0.0.1
+[INFO][2018-04-01 13:34:22,387][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[ERROR][2018-04-01 13:34:23,900][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> goodsDesc.item_images  [in template "item.ftl" at line 24, column 21]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #assign imageList = goodsDesc.item_im...  [in template "item.ftl" at line 24, column 1]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:26)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Assignment.accept(Assignment.java:131)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 13:35:53,426][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "." left-hand operand: Expected a hash, but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> imageList  [in template "item.ftl" at line 50, column 31]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #if (imageList.size > 0)  [in template "item.ftl" at line 50, column 25]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonHashException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.EvalUtil.compare(EvalUtil.java:110)
+	at freemarker.core.ComparisonExpression.evalToBoolean(ComparisonExpression.java:64)
+	at freemarker.core.ParentheticalExpression.evalToBoolean(ParentheticalExpression.java:31)
+	at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:46)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 13:36:05,644][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "." left-hand operand: Expected a hash, but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> imageList  [in template "item.ftl" at line 50, column 31]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #if (imageList.size > 0)  [in template "item.ftl" at line 50, column 25]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonHashException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.EvalUtil.compare(EvalUtil.java:110)
+	at freemarker.core.ComparisonExpression.evalToBoolean(ComparisonExpression.java:64)
+	at freemarker.core.ParentheticalExpression.evalToBoolean(ParentheticalExpression.java:31)
+	at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:46)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 14:30:33,781][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "?eval" left-hand operand: Expected a string or something automatically convertible to string (number, date or boolean), but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> goodsDesc.specificationItems?eval  [in template "item.ftl" at line 30, column 28]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #assign specificationList = goodsDesc...  [in template "item.ftl" at line 30, column 1]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonStringException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:390)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:26)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Assignment.accept(Assignment.java:131)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 14:30:43,559][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "?eval" left-hand operand: Expected a string or something automatically convertible to string (number, date or boolean), but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> goodsDesc.specificationItems?eval  [in template "item.ftl" at line 30, column 28]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #assign specificationList = goodsDesc...  [in template "item.ftl" at line 30, column 1]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonStringException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:390)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:26)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Assignment.accept(Assignment.java:131)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 14:30:58,357][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "?eval" left-hand operand: Expected a string or something automatically convertible to string (number, date or boolean), but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> goodsDesc.specificationItems?eval  [in template "item.ftl" at line 30, column 28]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #assign specificationList = goodsDesc...  [in template "item.ftl" at line 30, column 1]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonStringException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:390)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:26)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Assignment.accept(Assignment.java:131)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 14:32:20,362][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "." left-hand operand: Expected a hash, but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> specificationList  [in template "item.ftl" at line 143, column 40]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list specificationList.attributeValu...  [in template "item.ftl" at line 143, column 33]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonHashException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:69)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:268)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR][2018-04-01 14:33:03,434][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+For "." left-hand operand: Expected a hash, but this has evaluated to a sequence (wrapper: f.t.SimpleSequence):
+==> specificationList  [in template "item.ftl" at line 143, column 40]
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list specificationList.attributeValu...  [in template "item.ftl" at line 143, column 33]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.NonHashException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:69)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:268)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.pinyougou.page.service.impl.ItemPageServiceImpl.genItemHtml(ItemPageServiceImpl.java:56)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
